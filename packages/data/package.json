@@ -1,0 +1,38 @@
+{
+  "name": "@fasthelp/data",
+  "version": "1.0.0",
+  "description": "Help for mock data, common data and data processing.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinawebsite/fasthelp.git"
+  },
+  "keywords": [
+    "fast",
+    "fasthelp",
+    "fastdata",
+    "mockdata",
+    "countrydata",
+    "countries",
+    "dataprocessing"
+  ],
+  "author": "Vandy Wan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinawebsite/fasthelp/issues"
+  },
+  "homepage": "https://github.com/chinawebsite/fasthelp#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "tslib": "^2.8.1"
+  }
+}

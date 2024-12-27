@@ -1,0 +1,32 @@
+{
+  "name": "@fasthelp/monorepo",
+  "version": "1.0.0",
+  "description": "fasthelp - Powerful open source libraries to provide help in learning and office fields.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinawebsite/fasthelp.git"
+  },
+  "keywords": [
+    "fast",
+    "fastdraw",
+    "fastdata"
+  ],
+  "author": "Vandy Wan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinawebsite/fasthelp/issues"
+  },
+  "homepage": "https://github.com/chinawebsite/fasthelp#readme",
+  "workspace": [
+    "packages/*"
+  ],
+  "packageManager": "pnpm@9.2.0",
+  "devDependencies": {
+    "rollup": "^4.29.1",
+    "typescript": "^5.7.2"
+  }
+}
